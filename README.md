@@ -8,7 +8,7 @@ EXAMPLE
 ```hcl
 module "spoke-1" {
   source = "dcos-terraform/dcos/aws-remote-agents"
-  version = "~> 0.1"
+  version = "0.1.0"
 
   provider "aws" {
     region = "us-west-2"
